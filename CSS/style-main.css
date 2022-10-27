@@ -1,0 +1,50 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    text-align: center;
+}
+body{
+    background-color: #ccc;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+main{
+    padding-top: 1em;
+    margin: 0em 2em 2em 3em;
+}
+.parteUno{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    gap: 1em;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+.item1{
+    display: grid;
+    grid-template-rows:20% 40% 40%;
+    grid-template-columns: 40% 10% 60%;
+}
+.item1>img{
+    width:610px ;
+    grid-area: 1/3 ;
+}
+#subtitulo{
+    margin-top:25px ;
+    grid-area: 1/1;
+    text-align: center;
+}
+.item1>#parrafos{
+    grid-area: 2/1;
+}
+#partedos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80% 20%;
+}
+.imgp2{
+    position: relative;
+    width: 339px;
+    background: fixed;
+}
