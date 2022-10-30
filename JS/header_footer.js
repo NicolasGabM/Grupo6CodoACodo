@@ -1,5 +1,5 @@
 document.getElementById("header").innerHTML=`<nav>
-<p><a href="index.html">PEGASUS</a></p>
+<p class="text-shadow-pop-left"><a href="index.html">PEGASUS</a></p>
 <ul>
     <li><a class="headerA" href="variedades.html">Variedades</a></li>
     <li><a class="headerA" href="historia.html">Sobre nosotros</a></li>

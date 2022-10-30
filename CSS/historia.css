@@ -1,6 +1,6 @@
 .divH1{
     display: grid;
-    grid-template-rows: 0.5fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.2fr;
     grid-template-columns: 50% 50%;
 }
 .itemH1{
@@ -12,4 +12,22 @@
 }
 .itemH3{
     grid-area:2/2;
+}
+#nombre{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    padding-bottom: 100px;
+}
+h2{
+    background-color: yellow;
+}
+.itemN1{
+    grid-area: 1/2;
+}
+.itemN3{
+    grid-area: 2/1;
+}
+.itemN2{
+    grid-area: 2/2;
 }

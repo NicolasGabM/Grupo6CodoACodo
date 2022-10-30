@@ -1,0 +1,50 @@
+form input, form textarea,label,select,h2{
+    margin-top: 10px;
+    display: flex;   
+    font-size: 20px;
+} 
+.principalContacto{
+    gap: 1em;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+textarea{
+    width: 500px;
+    height: 160px;
+    resize:none;
+    font-size: 15px;
+}
+
+
+.formularioContacto{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: repeat(2 1fr);
+}
+.itemC4{
+    grid-area: 1/2;
+}
+.itemC3{
+    grid-area: 1/1;
+}
+.itemC2{
+    grid-area: 1/1;
+}
+.itemC1{
+    grid-area: 1/1;
+}
+#envio{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+#envio:hover{
+    background-color:yellow;
+    font-size: 25px;
+}
