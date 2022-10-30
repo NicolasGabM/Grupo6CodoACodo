@@ -45,6 +45,7 @@ main{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 80% 20%;
     margin-bottom: 100px;
+    font-size: 20px;
 }
 .imgp2{
     position: relative;
@@ -59,10 +60,10 @@ main{
 }
 .partetres{
     display: grid;
-    gap: 150px;
+    gap: 60px;
     grid-template-columns: repeat(4 1fr);
     grid-template-rows: repeat(3 1fr);
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 @-webkit-keyframes roll-in-right {
     0% {
@@ -92,4 +93,13 @@ main{
 .roll-in-right {
 	-webkit-animation: roll-in-right 0.6s ease-out both;
 	        animation: roll-in-right 0.6s ease-out both;
+}
+.email,.comentario{
+    font-size: 20px;
+}
+.email{
+    text-align: left;
+}
+.parrafos{
+    font-size: 20px;
 }
