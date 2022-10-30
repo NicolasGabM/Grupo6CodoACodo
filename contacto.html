@@ -11,12 +11,49 @@
         <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="CSS/style-main.css">
         <link rel="stylesheet" href="CSS/style-head-footer.css">
+        <link rel="stylesheet" href="CSS/style-contacto.css">
     </head>
     <body>
         <header id="header">
         </header>
+        <main>
+            <section class="principalContacto">
+                    <h2>¡Comunicate con nosotros!</h2>
+                    <form id="formulario">
+                        <div class="formularioContacto">
+                            <aside class="items1-3">  
+                                <div class="itemC1">
+                                    <label for="nombre">Nombre completo</label>
+                                    <input id="nombre" type="text">
+                                </div>
+                                <div class="itemC2">
+                                    <label for="mail">Mail</label>
+                                    <input id="mail" type="email">
+                                </div>
+                                <div class="itemC3">
+                                    <label for="asunto">Asunto</label>
+                                        <select name="asunto" id="asunto" value="contacto">
+                                            <option value="contacto">Contacto</option>
+                                            <option value="RRHH">RRHH</option>
+                                            <option value="promociones">Promociones</option>
+                                            <option value="prensa">Prensa</option>
+                                            <option value="consulta">consulta</option>
+                                        </select>
+                                </div>
+                            </aside>
+                            <div class="itemC4">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea  id="mensaje" placeholder="Escribe tu mensaje por favor!"></textarea>
+                            </div>
+                        </div>
+                        <input onclick="validar()" id ="envio"type="submit"></input>
+                    </form>
+                </div>
+            </section>
+        </main>
         <footer id="footer">
         </footer>
         <script src="JS/header_footer.js"></script>
+        <script src="JS/contacto.js"></script>
     </body>
 </html>
