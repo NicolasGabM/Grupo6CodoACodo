@@ -27,6 +27,7 @@ nav{
     height: 100px;
     align-content: flex-end;
 }
+
 nav,ul,a {
     color: white;
     display: flex;
